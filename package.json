@@ -1,6 +1,6 @@
 {
   "name": "edc-start-file-checksums",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/stierma1/edc-start-file-checksums#readme",
   "dependencies": {
-    "basic-distributed-computation": "^1.0.0"
+    "basic-distributed-computation": "^1.0.0",
+    "uuid": "^2.0.1"
   }
 }
