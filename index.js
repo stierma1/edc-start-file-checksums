@@ -8,6 +8,8 @@ class FileCheckSumsSP extends StartingPoint {
   constructor(){
     super("file-checksums");
     this.add(0, "file-checksums");
+    this.add(1, "mv/_output/checksums");
+    this.add(2, "cp/_input/checksums/_output/checksums2");
   }
 
   createRequest(payload){
